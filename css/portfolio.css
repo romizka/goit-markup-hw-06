@@ -379,6 +379,9 @@ address {
     margin-bottom: 20px;
     }
 
+.newsletter-form {
+    margin-left: auto;
+}
 
 .newsletter-box {
     display: flex;
@@ -400,6 +403,7 @@ address {
     border-radius: 4px;
     background: var(--dark-grey);
     padding: 15px 0 15px 16px;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .newsletter-submit {
@@ -414,13 +418,13 @@ address {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    padding-left: 42px;
 }
 
-.sign-up-text {
-    position: absolute;
-    left: 42px;
-    top: 10px;
-}
 .icon-send {
     fill: currentColor;
     position: absolute;
